@@ -3,9 +3,9 @@ import './App.css';
 
 import Home from './pages/Home';
 import MainLayout from './layouts/MainLayout/MainLayout';
+import Dashboard from './pages/Dashboard/Dashboard'; // Importa o componente real
 
 // Vamos criar componentes de página temporários para testar as rotas
-const Dashboard = () => <h2>Página de Dashboard</h2>;
 const Livros = () => <h2>Página de Livros</h2>;
 const Emprestimos = () => <h2>Página de Empréstimos</h2>;
 const Alunos = () => <h2>Página de Alunos</h2>;

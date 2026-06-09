@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './Sidebar.css'; // 
 
 // Importando os mesmos ícones que usamos nos cards
-import { FcComboChart, FcReading, FcRefresh, FcReadingEbook, FcTemplate, FcSettings     } from "react-icons/fc";
+import { FcComboChart, FcReading, FcRefresh, FcReadingEbook, FcTemplate, FcSettings, FcHome    } from "react-icons/fc";
 function Sidebar() {
   return (
     <div className="sidebar-container">
@@ -11,6 +11,7 @@ function Sidebar() {
         <h3>BiblioSys</h3>
       </div>
       <ul className="sidebar-menu">
+        <li><Link to="/"><FcHome /> Home</Link></li>
         <li><Link to="/dashboard"><FcComboChart /> Dashboard</Link></li>
         <li><Link to="/livros"><FcReading /> Livros</Link></li>
         <li><Link to="/emprestimos"><FcRefresh /> Empréstimos</Link></li>
