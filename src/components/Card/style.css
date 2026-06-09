@@ -1,0 +1,42 @@
+.card {
+  background-color: #ffffff;
+  box-shadow: -13px -5px 71px 0px rgba(0,0,0,0.1),7px 10px 15px -3px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  padding: 20px;
+  width: 400px;
+  height: 150px;
+  display: flex;
+  flex-direction: column; /* Alinha os itens em coluna */
+  justify-content: center; /* Centraliza o conteúdo na vertical */
+  align-items: flex-start; /* Alinha o conteúdo à esquerda */
+  text-align: left; /* Garante que o TEXTO fique à esquerda */
+  cursor: pointer;
+  transition: transform 0.2s, box-shadow 0.2s;
+  text-decoration: none; /* Remove o sublinhado dos links */
+}
+
+.card svg { /* Estiliza o ícone (react-icons usa SVG) */
+  font-size: 2em; /* Tamanho do ícone */
+  margin-bottom: 10px; /* Espaço entre o ícone e o título */
+}
+
+.card:hover {
+  border: 1px solid #5572f5;
+}
+
+.card h3 {
+  display: flex;  
+  margin: 0;
+  font-size: 20px;
+  color: #313131;
+  padding: 0;
+  font-family: roboto, sans-serif;
+}
+
+.card p {
+    margin: 10px 0 0 0;
+    font-size: 14px;
+    color: #666666;
+    padding: 10px 0 0 0;
+    font-family: roboto, sans-serif;
+}

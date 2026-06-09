@@ -1,0 +1,12 @@
+.main-layout-container {
+  display: flex;
+  background-color: #f8f9fa; /* Um fundo suave para a área de conteúdo */
+}
+
+.main-content {
+  flex-grow: 1; /* Faz com que o conteúdo principal ocupe todo o espaço restante */
+  padding: 40px;
+  height: 100vh;
+  overflow-y: auto; /* Adiciona uma barra de rolagem se o conteúdo for muito grande */
+  box-sizing: border-box;
+}
