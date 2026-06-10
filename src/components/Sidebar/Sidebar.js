@@ -12,10 +12,12 @@ function Sidebar() {
       </div>
       <ul className="sidebar-menu">
         <li><Link to="/"><FcHome /> Home</Link></li>
+        <p>Principal</p>
         <li><Link to="/dashboard"><FcComboChart /> Dashboard</Link></li>
         <li><Link to="/livros"><FcReading /> Livros</Link></li>
         <li><Link to="/emprestimos"><FcRefresh /> Empréstimos</Link></li>
         <li><Link to="/alunos"><FcReadingEbook /> Alunos</Link></li>
+        <p>Gestão</p>
         <li><Link to="/relatorios"><FcTemplate /> Relatórios</Link></li>
         <li><Link to="/configuracoes"><FcSettings /> Configurações</Link></li>
       </ul>

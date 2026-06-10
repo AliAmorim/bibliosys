@@ -4,13 +4,12 @@ import './App.css';
 import Home from './pages/Home';
 import MainLayout from './layouts/MainLayout/MainLayout';
 import Dashboard from './pages/Dashboard/Dashboard'; // Importa o componente real
-
+import Livros from './pages/Livros/Livros'; // Importa o componente real
+import Emprestimos from './pages/Emprestimos/Emprestimos'; // Importa o componente real
+import Alunos from './pages/Alunos/Alunos'; // Importa o componente real
+import Relatorios from './pages/Relatorios/Relatorios'; // Importa o componente real
 // Vamos criar componentes de página temporários para testar as rotas
-const Livros = () => <h2>Página de Livros</h2>;
-const Emprestimos = () => <h2>Página de Empréstimos</h2>;
-const Alunos = () => <h2>Página de Alunos</h2>;
-const Relatorios = () => <h2>Página de Relatórios</h2>;
-const Configuracoes = () => <h2>Página de Configurações</h2>;
+import Configuracoes from './pages/Configuracoes/Configuracoes'; // Importa o componente real
 
 
 function App() {

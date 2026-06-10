@@ -1,0 +1,55 @@
+.recent-loans-container {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.recent-loans-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.recent-loans-header h3 {
+  margin: 0;
+  font-size: 18px;
+  color: #212529;
+}
+
+.recent-loans-header a {
+  font-size: 14px;
+  color: #3b82f6;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.recent-loans-list .list-header,
+.recent-loans-list .loan-item {
+  display: grid;
+  grid-template-columns: 2fr 2fr 1fr;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid #f3f4f6;
+  font-size: 14px;
+}
+
+.recent-loans-list .list-header {
+  color: #6c757d;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.recent-loans-list .loan-item span:first-child {
+  font-weight: 500;
+  color: #374151;
+}
+
+.recent-loans-list .loan-item span:nth-child(2) {
+  color: #6b7280;
+}

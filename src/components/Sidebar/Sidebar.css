@@ -46,3 +46,10 @@
   margin-right: 15px; /* Espaço entre o ícone e o texto */
   font-size: 1.3em;
 }
+
+.sidebar-menu p {
+  margin: 20px 0 10px 15px;
+  font-size: 0.9em;
+  color: #888;
+  text-transform: uppercase;
+}

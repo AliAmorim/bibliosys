@@ -1,0 +1,40 @@
+.status-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 10px;
+  border-radius: 12px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.status-dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+/* Cores */
+.status-ontime {
+  background-color: rgba(25, 135, 84, 0.1);
+  color: #198754;
+}
+.status-ontime .status-dot {
+  background-color: #198754;
+}
+
+.status-due-soon {
+  background-color: rgba(255, 193, 7, 0.1);
+  color: #ffc107;
+}
+.status-due-soon .status-dot {
+  background-color: #ffc107;
+}
+
+.status-overdue {
+  background-color: rgba(220, 53, 69, 0.1);
+  color: #dc3545;
+}
+.status-overdue .status-dot {
+  background-color: #dc3545;
+}

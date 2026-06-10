@@ -1,9 +1,95 @@
-.dashboard-container {
-  animation: fadeIn 0.5s ease-in-out;
+.dashboard-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
 }
 
-.dashboard-container h1 {
-  color: #313131;
+.dashboard-header h1 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.dashboard-search {
+  padding: 4px;
+  font-size: 16px;
+  border:none;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+}
+
+.dashboard-user-icon {
+  font-size: 32px;
+  color: #6d7bf8;
+  margin-right: 60px;
+  cursor: pointer;
+
+}
+
+.dashboard-search-icon {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-left: 10px;
+
+}
+
+.dashboard-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; 
+  margin-left: 1100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: #fff;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.dashboard-search-container:focus-within {
+  border-color: #007BFF; /* Apenas muda a cor da borda que já existe */
+  
+  box-shadow: 0 0 0 1px #007BFF;
+}
+
+.dashboard-page {
+  display: flex;
+  flex-direction: column;
+}
+
+.dashboard-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Espaço entre as linhas de conteúdo */
+}
+
+.dashboard-stats-row {
+  display: flex;
+  gap: 20px; /* Espaço entre os StatCards */
+}
+
+.dashboard-main-row {
+  display: flex;
+  gap: 20px;
+}
+
+.dashboard-main-row > :first-child {
+  flex: 65%; /* O gráfico ocupa 65% do espaço */
+}
+
+.dashboard-main-row > :last-child {
+  flex: 35%; /* A lista de empréstimos ocupa 35% */
+}
+
+.dashboard-secondary-row {
+  display: flex;
+  gap: 20px;
 }
 
 /* Animação simples para a entrada da página */
