@@ -1,0 +1,159 @@
+.livros-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #ffffff;
+  border-bottom: 1px solid #ddd;
+}
+
+.livros-header h1 {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.livros-search {
+  padding: 4px;
+  font-size: 16px;
+  border:none;
+  border-radius: 4px;
+  background-color: #fff;
+  outline: none;
+}
+
+.livros-user-icon {
+  font-size: 32px;
+  color: #6d7bf8;
+  margin-right: 60px;
+  cursor: pointer;
+
+}
+
+.livros-search-icon {
+  font-size: 15px;
+  color: #aaaaaa;
+  margin-left: 10px;
+
+}
+
+.livros-search-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px; 
+  margin-left: 1100px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px 8px;
+  background-color: #fff;
+  cursor: pointer;
+  gap: 5px;
+}
+
+.livros-search-container:focus-within {
+  border-color: #007BFF; /* Apenas muda a cor da borda que já existe */
+  
+  box-shadow: 0 0 0 1px #007BFF;
+}
+
+.btn-livro {
+    display: flex; /* Adicionado para centralizar o conteúdo */
+    align-items: center; /* Adicionado para centralizar o conteúdo */
+    justify-content: center; /* Adicionado para centralizar o conteúdo */
+    width: 180px; /* Largura aumentada */
+    padding: 8px 15px; /* Ajuste no padding */
+    background-color: #0720ff;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-right: 20px;
+    white-space: nowrap; /* Impede a quebra de linha */
+    text-decoration: none; /* Remove o sublinhado do link */
+}
+
+.btn-livro:hover {
+    background-color: #0056b3;
+}
+
+.livros-content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.livros-filtros {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    width: 150px;
+}
+
+.livros-filtros select {
+    padding: 8px 20px 8px 20px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+.livros-filtros select:focus {
+    border-color: #007BFF;
+    box-shadow: 0 0 0 1px #007BFF;
+    outline: none;
+}
+
+.livros-filtros select option {
+    padding: 8px 20px 8px 20px;
+    border-radius: 7px;
+
+}
+
+    
+
+.btn-livro-filtrar {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;    
+
+}
+
+.btn-livro-filtrar:hover {
+    background-color: #f0f0f0;
+    border-color: #007BFF;
+}
+
+.btn-livro-limpar {
+    background-color: rgb(248, 249, 250);
+    border: none;
+    padding: 8px 20px 8px 20px;
+    cursor: pointer;    
+    white-space: nowrap;
+}
+
+.btn-livro-limpar:hover {
+    text-decoration: underline;
+}
+
+.livros-lista {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+    font-family: 'Roboto', sans-serif;
+    overflow-x: auto;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    padding: 10px;
+    background-color: #f9fafb;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  
+   
+}

@@ -1,0 +1,60 @@
+.books-table-container {
+  overflow-x: auto; /* Permite rolagem horizontal se a tabela for muito larga */
+}
+
+.books-table {
+  width: 100%;
+  border-collapse: collapse; /* Remove o espaço entre as células */
+  font-family: 'Roboto', sans-serif;
+}
+
+.books-table th,
+.books-table td {
+  padding: 16px 15px;
+  text-align: left;
+  border-bottom: 1px solid #f3f4f6; /* Linha cinza clara entre as linhas */
+  white-space: nowrap; /* Impede que o texto quebre */
+}
+
+.books-table thead th {
+  background-color: #f9fafb;
+  color: #6c757d;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+.books-table tbody tr:hover {
+  background-color: #f9fafb; /* Efeito de hover suave */
+}
+
+.books-table td {
+  color: #374151;
+  font-size: 14px;
+}
+
+.action-icons {
+  display: flex;
+  gap: 18px; /* Espaço entre os ícones */
+  align-items: center;
+}
+
+.action-icons .icon {
+  cursor: pointer;
+  font-size: 16px;
+  color: #6b7280;
+  transition: color 0.2s;
+}
+
+.action-icons .icon:hover {
+  color: #3b82f6; /* Cor de hover azul */
+}
+
+.action-icons .delete-icon:hover {
+  color: #dc3545; /* Cor de hover vermelha para o ícone de lixeira */
+}
+
+/* Estilos básicos para o status (podemos melhorar depois com o StatusBadge) */
+.status-disponível { color: #198754; }
+.status-emprestado { color: #ffc107; }
+.status-manutenção { color: #6c757d; }
